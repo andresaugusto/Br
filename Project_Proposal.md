@@ -6,6 +6,8 @@ This application's purpose is to provide a platform for Breaking Bad's component
 
 ## Home Page Wireframe
 
+![alt text](https://github.com/andresaugusto/Br/blob/master/t'at.jpeg "Home Page Wireframe")
+
 ## MVP User Stories
 
 • _I am interested in knowing the name of the actor who plays Walter White Jr._
@@ -113,5 +115,6 @@ API `/characters` search yield:
 		
 _(cont...)_
 
-## Component Hirearchy
+## Component Hierarchy
 
+![alt text](https://github.com/andresaugusto/Br/blob/master/I--'.jpeg "Component Hierarchy")
