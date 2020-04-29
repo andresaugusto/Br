@@ -6,7 +6,7 @@ This application's purpose is to provide a platform for Breaking Bad's component
 
 ## Home Page Wireframe
 
-![wireframe-home-rev0.jpeg](https://https://github.com/andresaugusto/Br/blob/devAA/project_proposal/references/wireframe-home-rev0.jpeg "Home Page Wireframe")
+![wireframe-home-rev0.jpeg](https://github.com/andresaugusto/Br/blob/devAA/project_proposal/references/wireframe-home-rev0.jpeg "Home Page Wireframe")
 
 ## MVP User Stories
 
