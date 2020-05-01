@@ -1,38 +1,125 @@
 .App {
-  text-align: center;
-  color: white;
+	text-align: center;
+	color: white;
 }
 
 h1 {
-  font-size: 8vmin;
-  color: grey;
+	font-size: 8vmin;
+	color: grey;
 }
 
 nav {
-  background-color: black;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
+	background-color: black;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
 }
 
 nav h1 {
-  padding: 2vmin;
-  border-style: solid;
-  border-width: .5vmin;
+	padding: 2vmin;
+	border-style: solid;
+	border-width: 0.5vmin;
 }
 
 li {
-  display: inline-block;
-  padding: 2vmin;
-  list-style: none;
-  letter-spacing: .5vmin;
+	font-size: 3vmin;
+	display: inline-block;
+	padding: 2vmin;
+	list-style: none;
+	letter-spacing: 0.5vmin;
 }
 
 .links {
-  color: white;
-  text-decoration: none;
+	color: white;
+	text-decoration: none;
+}
+
+.page-title {
+	font-size: 5vmin;
+	display: inline-block;
+	padding: 2vmin;
+	letter-spacing: 0.5vmin;
+	color: grey;
+	padding: 2vmin;
+	border-style: solid;
+	border-width: 0.5vmin;
+	border-top: black;
+	border-bottom: black;
+	margin: 5vmin;
+}
+
+.names-list {
+	color: white;
+	text-decoration: none;
+}
+
+.character-image {
+	display: block;
+	width: 50vmin;
+	margin: 0 auto;
+}
+
+.character-details {
+	display: block;
+	list-style: none;
+	width: 50vmin;
+	text-align: left;
+	margin-left: 10vmin;
+}
+
+/* CONTACT INFO */
+
+ul {
+	font-size: 2.5vmin;
+	padding: 0;
+	margin: 20vmin 0 0 0;
+}
+
+li {
+	list-style-type: none;
+	display: inline;
+	padding: 0px 10px 0px 10px;
+	line-height: 50px;
+}
+
+a {
+	color: #807a70;
+	text-emphasis: none;
+}
+
+.email {
+	font-size: 2.8vmin;
+	padding: 4vmin 1vmin 4vmin 1vmin;
+	margin: 0 0 4vmin 0;
+	letter-spacing: 1.5vmin;
+}
+
+/* CLOSING SIGNATURE */
+
+.virtual-image {
+	max-width: 15vmin;
+	margin: 0 auto;
+	opacity: 30%;
+}
+
+.virtual {
+	transition: transform 0.5s;
+	margin: 0 auto;
+}
+
+.virtual:hover {
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+}
+
+.date {
+	font-family: 'Playfair Display', serif;
+	font-size: 8vmin;
+	font-weight: 300;
+	color: grey;
 }
 
 /* @keyframes App-logo-spin {
