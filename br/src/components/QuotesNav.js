@@ -9,9 +9,7 @@ function QuotesNav() {
 	const [quotes, setQuotes] = useState([]);
 
 	const fetchQuotes = async () => {
-		const quotesData = await fetch(
-			'https://www.breakingbadapi.com/api/quotes'
-		);
+		const quotesData = await fetch('https://www.breakingbadapi.com/api/quotes');
 		const quotes = await quotesData.json();
 		console.log(quotes);
 		setQuotes(quotes);
@@ -21,9 +19,9 @@ function QuotesNav() {
 		<>
 			<h3 className='page-title'>Quotes</h3>
 			{quotes.map((quote) => (
-				<h4 key={quote.char_id}>
-					<Link className='names-list' to={`/quotes/${quote.char_id}`}>
-						{quote.name}
+				<h4 key={quote.quote_id}>
+					<Link className='names-list' to={`/quotes/${quote.quote_id}`}>
+						<i>"{quote.quote}"</i>
 					</Link>
 				</h4>
 			))}

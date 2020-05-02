@@ -17,7 +17,7 @@ function CharacterInfo({ match }) {
 		const character = await fetchCharacterInfo.json();
 		setCharacter(character[0]);
 		console.log(character);
-		console.log(character[0].occupation[2]);
+		console.log(character[0].occupation[1]);
 	};
 
 	return (
@@ -28,7 +28,7 @@ function CharacterInfo({ match }) {
 				src={character.img}
 				alt={character.name}
 			/>
-			<div className='details-div'>
+			<div className='character-details-div'>
 				<ul className='details'>
 					<li className='details-parameter'>alias :</li>
 					<li className='details-result'>{character.nickname}</li>
@@ -44,8 +44,8 @@ function CharacterInfo({ match }) {
 					<li className='details-result'>{character.portrayed}</li>
 				</ul>
 			</div>
-			<Link className='back-to' to='/characters'>
-				<h4>Back to Characters</h4>
+			<Link to='/characters'>
+				<h4 className='back-to'>Back to Characters</h4>
 			</Link>
 		</section>
 	);

@@ -5,7 +5,7 @@
 }
 
 ul {
-    padding-inline-start: 0;
+	padding-inline-start: 0;
 }
 
 header {
@@ -15,7 +15,7 @@ header {
 }
 
 header nav {
-	background-color: rgba(0, 0, 0, .5);
+	background-color: rgba(0, 0, 0, 0.5);
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -83,7 +83,7 @@ nav li {
 	border-radius: 1.5vmin;
 }
 
-div .details-div {
+div .character-details-div {
 	width: 75vmin;
 	margin: 0 auto;
 	margin-top: 5vmin;
@@ -94,16 +94,17 @@ div .details-div {
 }
 
 ul .details {
+	width: 75vmin;
 	padding: 1vmin;
 	letter-spacing: 0.5vmin;
 	list-style: none;
 	color: grey;
 	text-align: left;
 	margin: 5vmin 0;
-	
 }
 
 .details-parameter {
+	font-size: 4.5vmin;
 	color: rgb(164, 179, 119);
 	font-weight: 250;
 	letter-spacing: 1.2vmin;
@@ -115,11 +116,66 @@ ul .details {
 .details-result {
 	font-size: 4.5vmin;
 	font-style: italic;
-	text-transform: lowercase;
+	text-transform: uppercase;
 	list-style: none;
 	color: grey;
 	text-align: left;
 	margin: 2.5vmin 0 0 5vmin;
+}
+
+.back-to {
+	color: rgb(164, 179, 119);
+	text-transform: uppercase;
+	font-size: 5vmin;
+	font-weight: 400;
+	line-height: 11vmin;
+	display: inline-block;
+	padding: 1vmin;
+	width: 73vmin;
+	letter-spacing: 0.5vmin;
+	border: rgb(164, 179, 119);
+	border-style: solid;
+	border-width: 0.1vmin;
+	margin: 5vmin;
+	margin-top: 20vmin;
+}
+
+/* EPISODE INFO */
+
+div .episode-details-div {
+	width: 75vmin;
+	padding-bottom: 10vmin;
+	margin: 0 auto;
+	margin-top: 5vmin;
+	border: rgba(0, 0, 0, 0);
+	border-bottom: rgb(164, 179, 119);
+	border-style: solid;
+	border-width: 0.3vmin;
+}
+
+/* QUOTE INFO */
+
+.quote-page-title {
+	color: rgb(164, 179, 119);
+	text-transform: uppercase;
+	font-size: 5vmin;
+	font-weight: 400;
+	line-height: 11vmin;
+	display: inline-block;
+	padding: 1vmin;
+	width: 73vmin;
+	letter-spacing: 0.5vmin;
+	margin: 20vmin 5vmin 5vmin 5vmin;
+}
+
+.quote-details-result {
+	font-size: 4.5vmin;
+	font-style: italic;
+	text-transform: uppercase;
+	list-style: none;
+	color: grey;
+	text-align: center;
+	margin: 2.5vmin;
 }
 
 /* CONTACT INFO */
