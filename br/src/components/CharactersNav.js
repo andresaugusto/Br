@@ -21,9 +21,11 @@ function CharactersNav() {
 		<>
 			<h3 className='page-title'>Characters</h3>
 			{characters.map((character) => (
-				<h4 key={character.char_id}>
-					<Link className='names-list' to={`/characters/${character.char_id}`}>{character.name}</Link>
-				</h4>
+				<h5 key={character.char_id}>
+					<Link className='names-list' to={`/characters/${character.char_id}`}>
+						{character.name}
+					</Link>
+				</h5>
 			))}
 		</>
 	);

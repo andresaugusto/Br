@@ -6,7 +6,7 @@ import CharacterInfo from './components/CharacterInfo';
 import EpisodesNav from './components/EpisodesNav';
 import QuotesNav from './components/QuotesNav';
 import Footer from './components/Footer';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 // import { Link, Route } from 'react-router-dom';
 import './App.css';
 
