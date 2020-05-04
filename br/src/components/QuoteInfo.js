@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 function QuoteInfo({ match }) {
 	useEffect(() => {
 		fetchQuoteInfo();
-		console.log(match);
 	}, []);
 
 	const [quote, setQuote] = useState([]);
@@ -16,8 +15,6 @@ function QuoteInfo({ match }) {
 		);
 		const quote = await fetchQuoteInfo.json();
 		setQuote(quote[0]);
-		console.log(quote);
-		console.log(quote[0].author);
 	};
 
 	return (

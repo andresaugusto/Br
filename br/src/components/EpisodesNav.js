@@ -13,7 +13,6 @@ function EpisodesNav() {
 			'https://www.breakingbadapi.com/api/episodes'
 		);
 		const episodes = await episodesData.json();
-		console.log(episodes);
 		setEpisodes(episodes);
 	};
 

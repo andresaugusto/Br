@@ -27,13 +27,6 @@ export default function Footer() {
 				</li>
 			</ul>
 			<div className='sign-email'>andres.augusto@icloud.com</div>
-			{/* <div className='sign-virtual'>
-				<img
-					className='sign-virtual-image'
-					src='src/images/virtual.png'
-					alt='virtual.png'
-				/>
-			</div> */}
 			<span className='sign-date'>
 				<small>
 					20<span className='sign-first-letter'>20</span>

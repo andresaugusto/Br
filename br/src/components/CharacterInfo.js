@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 function CharacterInfo({ match }) {
 	useEffect(() => {
 		fetchCharacterInfo();
-		console.log(match);
 	}, []);
 
 	const [character, setCharacter] = useState([]);
@@ -16,8 +15,6 @@ function CharacterInfo({ match }) {
 		);
 		const character = await fetchCharacterInfo.json();
 		setCharacter(character[0]);
-		console.log(character);
-		console.log(character[0].occupation[1]);
 	};
 
 	return (

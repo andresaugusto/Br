@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 function EpisodeInfo({ match }) {
 	useEffect(() => {
 		fetchEpisodeInfo();
-		// console.log(match);
 	}, []);
 
 	const [episode, setEpisode] = useState([]);
@@ -16,8 +15,6 @@ function EpisodeInfo({ match }) {
 		);
 		const episode = await fetchEpisodeInfo.json();
 		setEpisode(episode[0]);
-		console.log(episode);
-		console.log(episode[0].characters[3]);
 	};
 
 	return (
