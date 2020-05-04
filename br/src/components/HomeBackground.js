@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 
-function CharactersNav() {
+function HomeBackground() {
 	useEffect(() => {
 		fetchCharacters();
 	}, []);
@@ -17,17 +16,17 @@ function CharactersNav() {
 	};
 
 	return (
-		<>
-			<h3 className='page-title'>Characters</h3>
+		<div className='background-collage'>
 			{characters.map((character) => (
-				<h5 key={character.char_id}>
-					<Link className='names-list' to={`/characters/${character.char_id}`}>
-						{character.name}
-					</Link>
-				</h5>
+				<img
+					key={character.char_id}
+					className='individual-bg-img'
+					src={character.img}
+					alt={character.name}
+				/>
 			))}
-		</>
+		</div>
 	);
 }
 
-export default CharactersNav;
+export default HomeBackground;

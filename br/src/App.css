@@ -45,6 +45,68 @@ nav li {
 	text-decoration: none;
 }
 
+/* HOME */
+
+.background-collage {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0.3;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(26vmin, 1fr));
+	z-index: -10;
+}
+
+.individual-bg-img {
+	filter: blur(5px) saturate(0%);
+	width: 100%;
+	height: 30vmin;
+	object-fit: cover;
+	object-position: top;
+}
+
+.home {
+	margin: 0 auto;
+	width: 75vmin;
+	margin-top: 20vmin;
+}
+
+.home-titles {
+	color: rgb(163, 193, 128);
+	font-size: 10vmin;
+	font-family: 'Playfair Display', serif;
+	font-weight: 300;
+	font-style: italic;
+	margin: 20vmin 0;
+	padding: 2vmin;
+}
+
+.home-warnings {
+	color: rgb(167, 150, 93);
+	font-size: 5vmin;
+	font-style: italic;
+	letter-spacing: 1vmin;
+}
+
+.home-info {
+	font-size: 4.5vmin;
+	font-style: italic;
+	text-transform: uppercase;
+	list-style: none;
+	color: grey;
+	text-align: left;
+
+	padding: 4vmin;
+	background: rgba(0, 0, 0, 0.5);
+	margin-top: 20vmin;
+	font-size: 4vmin;
+	text-decoration: none;
+	border-radius: 1.5vmin;
+	border-style: solid;
+	border-width: 0.5vmin;
+	border-color: rgb(167, 150, 93);
+}
+
 /* CHARACTERS, EPISODES & QUOTES NAV */
 
 .page-title {
@@ -67,10 +129,19 @@ nav li {
 /* CHARACTERS NAV */
 
 .names-list {
+	margin-bottom: 100vmin;
 	font-size: 4vmin;
 	color: rgb(128, 121, 98);
 	text-decoration: none;
 	letter-spacing: 1.5vmin;
+}
+
+h4,
+h5 {
+	margin: 0 auto;
+	margin-block-start: 10vmin;
+	margin-block-end: 10vmin;
+	width: 75vmin;
 }
 
 /* CHARACTER INFO */
@@ -237,12 +308,3 @@ a .sign-profile-link {
 	color: white;
 	font-size: 10vmin;
 }
-
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */

@@ -11,7 +11,6 @@ function QuotesNav() {
 	const fetchQuotes = async () => {
 		const quotesData = await fetch('https://www.breakingbadapi.com/api/quotes');
 		const quotes = await quotesData.json();
-		console.log(quotes);
 		setQuotes(quotes);
 	};
 
