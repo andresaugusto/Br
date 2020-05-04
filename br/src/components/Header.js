@@ -9,15 +9,21 @@ function Header() {
 					<h1>Br</h1>
 				</Link>
 				<ul>
-					<Link className='links' to='/characters'>
-						<li>Characters</li>
-					</Link>
-					<Link className='links' to='/episodes'>
-						<li>Episodes</li>
-					</Link>
-					<Link className='links' to='/quotes'>
-						<li>Quotes</li>
-					</Link>
+					<li>
+						<Link className='links' to='/characters'>
+							Characters
+						</Link>
+					</li>
+					<li>
+						<Link className='links' to='/episodes'>
+							Episodes
+						</Link>
+					</li>
+					<li>
+						<Link className='links' to='/quotes'>
+							Quotes
+						</Link>
+					</li>
 				</ul>
 			</nav>
 		</header>

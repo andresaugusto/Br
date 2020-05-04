@@ -2,6 +2,7 @@ import React from 'react';
 import HomeBackground from './HomeBackground';
 
 function Home() {
+	// Hou comment: Nested <section> tags here might not be semantically appropriate. Take a read to understand how to use section tags properly: https://stackoverflow.com/questions/7183132/how-to-correctly-use-section-tag-in-html5
 	return (
 		<section>
 			<HomeBackground />

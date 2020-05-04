@@ -12,6 +12,9 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 // import { Link, Route } from 'react-router-dom';
 import './App.css';
 
+// Hou comment: nice job using functional components and hooks throughout your codebase! The code formatting is really clean overall so your code is easy to read and understand.
+
+// Also love that you're using async/await liberally throughout your code!
 function App() {
 	return (
 		<Router>

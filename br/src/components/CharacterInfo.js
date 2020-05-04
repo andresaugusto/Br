@@ -10,6 +10,7 @@ function CharacterInfo({ match }) {
 	const [character, setCharacter] = useState([]);
 
 	const fetchCharacterInfo = async () => {
+		// Hou comment: since you have so many API calls, you might want to move your api functions into their own /api folder. See Raul's example https://github.com/99Raul/covid-app
 		const fetchCharacterInfo = await fetch(
 			`https://www.breakingbadapi.com/api/characters/${match.params.characterId}`
 		);
