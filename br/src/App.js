@@ -8,27 +8,27 @@ import EpisodeInfo from './components/EpisodeInfo';
 import QuotesNav from './components/QuotesNav';
 import QuoteInfo from './components/QuoteInfo';
 import Footer from './components/Footer';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 // import { Link, Route } from 'react-router-dom';
 import './App.css';
 
 function App() {
 	return (
-		<Router>
+		// <Router>
 			<div className='App'>
 				<Header />
 				<Switch>
-					<Route path='/' exact component={Home} />
-					<Route path='/characters' exact component={CharactersNav} />
-					<Route path='/characters/:characterId' component={CharacterInfo} />
-					<Route path='/episodes' exact component={EpisodesNav} />
-					<Route path='/episodes/:episodeId' component={EpisodeInfo} />
-					<Route path='/quotes' exact component={QuotesNav} />
-					<Route path='/quotes/:quoteId' component={QuoteInfo} />
+					<Route exact path='/' component={Home} />
+					<Route exact path='/characters' component={CharactersNav} />
+					<Route exact path='/characters/:characterId' component={CharacterInfo} />
+					<Route exact path='/episodes' component={EpisodesNav} />
+					<Route exact path='/episodes/:episodeId' component={EpisodeInfo} />
+					<Route exact path='/quotes' component={QuotesNav} />
+					<Route exact path='/quotes/:quoteId' component={QuoteInfo} />
 				</Switch>
 				<Footer />
 			</div>
-		</Router>
+		// </Router>
 	);
 }
 
