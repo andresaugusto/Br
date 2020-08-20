@@ -9,7 +9,7 @@ ReactDOM.render(
 	// <React.StrictMode>
 	// 	<App />
 	// </React.StrictMode>,
-	<Router basename='/Br'>
+	<Router basename='/Br/'>
 		<App />
 	</Router>,
 	document.getElementById('root')
