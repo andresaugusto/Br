@@ -26,7 +26,7 @@ export default function Footer() {
 					</a>
 				</li>
 			</ul>
-			<div className='sign-email'>andres.augusto@icloud.com</div>
+			<p className='sign-email'>andres.augusto@icloud.com</p>
 			<span className='sign-date'>
 				<small>
 					20<span className='sign-first-letter'>20</span>

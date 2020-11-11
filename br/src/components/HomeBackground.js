@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
+// Hou comment: nice job implementing functional component  + Hooks here!
 function HomeBackground() {
 	useEffect(() => {
 		fetchCharacters();
