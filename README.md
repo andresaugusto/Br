@@ -33,7 +33,7 @@ https://andresaugusto.github.io/Br/
 
 ## Authors
 
-* **Andrés Augusto Ortiz Montalvo** - *Full-Stack Design and App Logic*
+* **Andrés Augusto Ortiz Montalvo** - *Frontend Design and App Logic*
 * **Tim Biles** - *Creation of API database "The Breaking Bad API", which powers the platform*
 
 ## Acknowledgments
