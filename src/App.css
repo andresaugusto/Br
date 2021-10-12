@@ -1,0 +1,311 @@
+.App {
+	text-align: center;
+	color: white;
+	margin-bottom: 20vmin;
+}
+
+ul {
+	padding-inline-start: 0;
+}
+
+header {
+	position: sticky;
+	top: 0;
+	z-index: 100;
+}
+
+header nav {
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+nav h1 {
+	font-size: 8vmin;
+	color: rgb(161, 189, 120);
+	margin: 3vmin 0;
+	padding: 2vmin;
+	border-style: solid;
+	border-radius: 1.5vmin;
+	border-width: 0.5vmin;
+}
+
+nav li {
+	font-size: 3vmin;
+	display: inline-block;
+	padding-left: 4vmin;
+	list-style: none;
+	letter-spacing: 0.5vmin;
+}
+
+.links {
+	color: white;
+	text-decoration: none;
+}
+
+/* HOME */
+
+.background-collage {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0.3;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(26vmin, 1fr));
+	z-index: -10;
+}
+
+.individual-bg-img {
+	filter: blur(5px) saturate(0%);
+	width: 100%;
+	height: 30vmin;
+	object-fit: cover;
+	object-position: top;
+}
+
+.home {
+	margin: 0 auto;
+	width: 75vmin;
+	margin-top: 20vmin;
+}
+
+.home-titles {
+	color: rgb(163, 193, 128);
+	font-size: 10vmin;
+	font-family: 'Playfair Display', serif;
+	font-weight: 300;
+	font-style: italic;
+	margin: 20vmin 0;
+	padding: 2vmin;
+}
+
+.home-warnings {
+	color: rgb(167, 150, 93);
+	font-size: 5vmin;
+	font-style: italic;
+	letter-spacing: 1vmin;
+}
+
+.home-info {
+	font-size: 4.5vmin;
+	font-style: italic;
+	text-transform: uppercase;
+	list-style: none;
+	color: grey;
+	text-align: left;
+
+	padding: 4vmin;
+	background: rgba(0, 0, 0, 0.5);
+	margin-top: 20vmin;
+	font-size: 4vmin;
+	text-decoration: none;
+	border-radius: 1.5vmin;
+	border-style: solid;
+	border-width: 0.5vmin;
+	border-color: rgb(167, 150, 93);
+}
+
+/* CHARACTERS, EPISODES & QUOTES NAV */
+
+.page-title {
+	color: rgb(164, 179, 119);
+	text-transform: uppercase;
+	font-size: 5vmin;
+	font-weight: 400;
+	line-height: 11vmin;
+	display: inline-block;
+	padding: 1vmin;
+	width: 73vmin;
+	letter-spacing: 0.5vmin;
+	border: rgba(0, 0, 0, 0);
+	border-bottom: rgb(164, 179, 119);
+	border-style: solid;
+	border-width: 0.3vmin;
+	margin: 5vmin;
+}
+
+/* CHARACTERS NAV */
+
+.names-list {
+	margin-bottom: 100vmin;
+	font-size: 4vmin;
+	color: rgb(128, 121, 98);
+	text-decoration: none;
+	letter-spacing: 1.5vmin;
+}
+
+h4,
+h5 {
+	margin: 0 auto;
+	margin-block-start: 10vmin;
+	margin-block-end: 10vmin;
+	width: 75vmin;
+}
+
+/* CHARACTER INFO */
+
+.character-image {
+	filter: sepia(100%) hue-rotate(45deg);
+	display: block;
+	width: 75vmin;
+	margin: 0 auto;
+	border-radius: 1.5vmin;
+}
+
+div .character-details-div {
+	width: 75vmin;
+	margin: 0 auto;
+	margin-top: 5vmin;
+	border: rgba(0, 0, 0, 0);
+	border-top: rgb(164, 179, 119);
+	border-style: solid;
+	border-width: 0.3vmin;
+}
+
+ul .details {
+	width: 75vmin;
+	padding: 1vmin;
+	letter-spacing: 0.5vmin;
+	list-style: none;
+	color: grey;
+	text-align: left;
+	margin: 5vmin 0;
+}
+
+.details-parameter {
+	font-size: 4.5vmin;
+	color: rgb(164, 179, 119);
+	font-weight: 250;
+	letter-spacing: 1.2vmin;
+	list-style: none;
+	text-align: left;
+	margin-top: 5vmin;
+}
+
+.details-result {
+	font-size: 4.5vmin;
+	font-style: italic;
+	text-transform: uppercase;
+	list-style: none;
+	color: grey;
+	text-align: left;
+	margin: 2.5vmin 0 0 5vmin;
+}
+
+.back-to {
+	color: rgb(164, 179, 119);
+	text-transform: uppercase;
+	font-size: 5vmin;
+	font-weight: 400;
+	line-height: 11vmin;
+	display: inline-block;
+	padding: 1vmin;
+	width: 73vmin;
+	letter-spacing: 0.5vmin;
+	border: rgb(164, 179, 119);
+	border-style: solid;
+	border-width: 0.1vmin;
+	margin: 5vmin;
+	margin-top: 20vmin;
+}
+
+/* EPISODE INFO */
+
+div .episode-details-div {
+	width: 75vmin;
+	padding-bottom: 10vmin;
+	margin: 0 auto;
+	margin-top: 5vmin;
+	border: rgba(0, 0, 0, 0);
+	border-bottom: rgb(164, 179, 119);
+	border-style: solid;
+	border-width: 0.3vmin;
+}
+
+/* QUOTE INFO */
+
+.quote-page-title {
+	color: rgb(164, 179, 119);
+	text-transform: uppercase;
+	font-size: 5vmin;
+	font-weight: 400;
+	line-height: 11vmin;
+	display: inline-block;
+	padding: 1vmin;
+	width: 73vmin;
+	letter-spacing: 0.5vmin;
+	margin: 20vmin 5vmin 5vmin 5vmin;
+}
+
+.quote-details-result {
+	font-size: 4.5vmin;
+	font-style: italic;
+	text-transform: uppercase;
+	list-style: none;
+	color: grey;
+	text-align: center;
+	margin: 2.5vmin;
+}
+
+/* CONTACT INFO */
+
+ul .sign-profile-link {
+	display: inline-block;
+	list-style: none;
+	color: rgb(161, 189, 120);
+	font-size: 2.5vmin;
+	margin-top: 20vmin;
+}
+
+li .sign-profile-link {
+	padding: 0vmin 2vmin;
+	line-height: 5vmin;
+	letter-spacing: 0.5vmin;
+}
+
+a .sign-profile-link {
+	text-emphasis: none;
+}
+
+.sign-email {
+	color: rgb(161, 189, 120);
+	font-size: 2.8vmin;
+	padding: 4vmin 1vmin 4vmin 1vmin;
+	margin: 0 0 4vmin 0;
+	letter-spacing: 1.5vmin;
+}
+
+/* CLOSING SIGNATURE */
+
+.sign-virtual-image {
+	max-width: 15vmin;
+	margin: 0 auto;
+	opacity: 30%;
+}
+
+.sign-virtual {
+	transition: transform 0.5s;
+	margin: 0 auto;
+}
+
+.sign-virtual:hover {
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+}
+
+.sign-date {
+	color: rgb(161, 189, 120);
+	font-family: 'Playfair Display', serif;
+	font-size: 8vmin;
+	font-weight: 300;
+	font-style: italic;
+}
+
+.sign-first-letter {
+	color: white;
+	font-size: 10vmin;
+}
